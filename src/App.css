@@ -3,29 +3,50 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 10vmin;
   pointer-events: none;
+  position:relative;
+  top: 0;
+  left: 0;
 }
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: App-logo-spin infinite 10s reverse;
   }
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: #105FA8;
+  min-height: 10vh;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   font-size: calc(10px + 2vmin);
   color: white;
+  padding-left: 5vw;
+  padding-right: 5vw;
 }
 
+.App-header:hover {
+  background-color: #1C1E21;
+
+}
+
+
+
 .App-link {
-  color: #61dafb;
+  color: white;
+
+  &:hover {
+    color: #1C1E21;
+    transition: color 0.4s ease-in-out;
+  }
+
+  &:active {
+    color: blue;
+  }
 }
 
 @keyframes App-logo-spin {
@@ -35,4 +56,47 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.Tarjeta {
+  background-color: #105FA8;
+  height: 100px;
+  width: 40vw;
+  min-width: 200px;
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 1vmin);
+  color: white;
+  margin: 10px;
+  border-radius: 25px;
+  padding: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.Tarjeta:hover {
+  background-color: #1C1E21; /* Cambiar el color de fondo al pasar el cursor */
+}
+
+.Tarjetas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.Tarjetas .Tarjeta {
+  height: 50%;
+}
+
+.Tarjeta-logo {
+  height: 7vh;
+  pointer-events: none;
+  position:relative;
+  top: 0;
+  left: 0;
+  background-color: white;
+  margin: 10px;
 }
