@@ -15,18 +15,18 @@ export const Menu = () =>{
             <BrowserRouter>
 
                 <div className="App-header">         
-                    <Link className="App-enlace" to="/">
+                    <Link className="App-enlace" to="/d3sarrollo">
                         <img src={logo} className="App-logo" alt="logo" />
                     </Link>
-                    <Link className="App-enlace" to="/contacto">
+                    <Link className="App-enlace" to="/d3sarrollo/contacto">
                         Contacto
                     </Link>
                 </div>
                 
                 <Routes>
-                    <Route path="/" element={<Home/>}/>
-                    <Route path="/contacto" element={<Contacto/>}/>
-                    <Route path="/gpst" element={<GPST/>}/>
+                    <Route path="/d3sarrollo" element={<Home/>}/>
+                    <Route path="/d3sarrollo/contacto" element={<Contacto/>}/>
+                    <Route path="/d3sarrollo/gpst" element={<GPST/>}/>
                 </Routes>
             
             </BrowserRouter>   
