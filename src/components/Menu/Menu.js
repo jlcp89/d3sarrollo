@@ -4,6 +4,7 @@ import { BrowserRouter, Link as Router, Routes, Route, Link }
 import Home from '../../pages/Home';
 import Contacto from '../../pages/Contacto';
 import GPST from '../../pages/GPST';
+import AcercaDe from '../../pages/AcercaDe';
 
 import logo from '../../components/Cabecera/assets/LogoD3sf.png';
 
@@ -21,11 +22,16 @@ export const Menu = () =>{
                     <Link className="App-enlace" to="/d3sarrollo/contacto">
                         Contacto
                     </Link>
+                    <Link className="App-enlace" to="/d3sarrollo/acerca-de">
+                        Acerca de
+                    </Link>
                 </div>
                 
                 <Routes>
                     <Route path="/d3sarrollo" element={<Home/>}/>
                     <Route path="/d3sarrollo/contacto" element={<Contacto/>}/>
+                    <Route path="/d3sarrollo/acerca-de" element={<AcercaDe/>}/>
+
                     <Route path="/d3sarrollo/gpst" element={<GPST/>}/>
                 </Routes>
             

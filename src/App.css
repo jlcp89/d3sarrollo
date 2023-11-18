@@ -144,6 +144,12 @@ iframe{
   margin: 25px;
 }
 
+.Foto{
+  max-width: 100%; /* Ajusta el tamaño máximo de la imagen */
+  max-height: 100%; /* Ajusta el tamaño máximo de la imagen */
+  margin: 25px;
+}
+
 .Tarjeta-titulo{
   color: white;
   margin: 10px;
