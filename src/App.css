@@ -36,21 +36,6 @@
 
 }
 
-
-
-.App-link {
-  color: white;
-
-  &:hover {
-    color: white;
-    transition: color 0.4s ease-in-out;
-  }
-
-  &:active {
-    color: blue;
-  }
-}
-
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -75,7 +60,7 @@
   margin: 10px;
   margin-top: 20px;
   border-radius: 25px;
-  padding: 5px;
+  padding: 0px;
   transition: background-color 1.0s ease;
 }
 
@@ -103,7 +88,117 @@
   top: 0;
   left: 0;
   background-color: white;
+  margin: 5px;
+}
+
+.App-enlace{
+  color: rgb(160, 160, 160);
+
+  &:hover {
+    color: white;
+    transition: color 0.4s ease-in-out;
+  }
+
+  &:active {
+    color: blue;
+  }
+}
+
+a{
+  color: rgb(160, 160, 160);
+  margin: 25px;
+  margin-left: 25px;
+  &:hover {
+    color: blue;
+    transition: color 0.4s ease-in-out;
+  }
+
+  &:active {
+    color: blue;
+  }
+}
+
+h1{
+  color: #105FA8;
+  margin: 25px;
+  display: inline-block;
+  text-align: center;
+  width: 85vw;
+}
+
+h3{
+  color: #105FA8;
+  margin: 25px;
+  
+}
+
+p{
+  color: #105FA8;
+  margin: 25px;
+  text-align: justify;
+}
+
+iframe{
+  width: 85vw;
+  height: 40vw;
+  margin: 25px;
+}
+
+.Tarjeta-titulo{
+  color: white;
   margin: 10px;
 }
 
+.Tarjeta-texto{
+  color: white;
+  margin: 1px;
+  text-align: center;
 
+}
+
+.Footer{
+  color: #1C1E21;
+  margin: 10px;
+  width: 90vw;
+  display: inline-block;
+  text-align: center;
+  margin-top: 200px;
+}
+
+.back-to-top-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #105FA8;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+form {
+  max-width: 400px;
+  margin: auto;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}

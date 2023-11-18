@@ -1,20 +1,19 @@
 import './App.css';
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route }
-    from 'react-router-dom';
-import Home from './pages/Home/Home';
-import Contacto from './pages/Contacto';
-
+import Menu from './components/Menu/Menu'
+import Footer from './components/Footer/Footer'
+import BackToTopButton from './components/BackToTopButton/BackToTopButton'
 
 
 function App() {
-  
 
   return (
-    <Home>
-      
-    </Home> 
-      
+    <div>
+      <Menu/>
+      <BackToTopButton />
+      <Footer />
+    </div>
+    
   );
 }
 
