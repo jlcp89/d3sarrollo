@@ -11,12 +11,10 @@ function App() {
   
 
   return (
-    <Router>
-      <Routes>
-        <Route exact path="/" element={<Home />} />
-        <Route path="/contacto" element={<Contacto />} />
-      </Routes>
-    </Router>   
+    <Home>
+      
+    </Home> 
+      
   );
 }
 
