@@ -10,7 +10,7 @@ export const Cabecera = () =>{
             </p>
             <a
             className="App-link"
-            href="https://reactjs.org"
+            href="'../../pages/Contacto'"
             target="_blank"
             rel="noopener noreferrer"
             >

@@ -27,6 +27,8 @@
   color: white;
   padding-left: 5vw;
   padding-right: 5vw;
+  transition: background-color 1.0s ease;
+
 }
 
 .App-header:hover {
@@ -40,7 +42,7 @@
   color: white;
 
   &:hover {
-    color: #1C1E21;
+    color: white;
     transition: color 0.4s ease-in-out;
   }
 
@@ -71,13 +73,16 @@
   font-size: calc(10px + 1vmin);
   color: white;
   margin: 10px;
+  margin-top: 20px;
   border-radius: 25px;
   padding: 5px;
-  transition: background-color 0.3s ease;
+  transition: background-color 1.0s ease;
 }
 
 .Tarjeta:hover {
   background-color: #1C1E21; /* Cambiar el color de fondo al pasar el cursor */
+  transform: scale(1.05);
+
 }
 
 .Tarjetas {
@@ -100,3 +105,5 @@
   background-color: white;
   margin: 10px;
 }
+
+
