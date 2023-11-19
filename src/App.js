@@ -10,8 +10,8 @@ function App() {
   return (
     <div>
       <Menu/>
-      <BackToTopButton />
-      <Footer />
+      <BackToTopButton/>
+      <Footer/>
     </div>
     
   );

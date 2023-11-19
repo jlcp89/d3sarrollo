@@ -1,46 +1,85 @@
 import React from "react"
-import { Cabecera } from '../components/Cabecera/Cabecera';
+import { Helmet } from 'react-helmet';
 import { TarjetaApli } from '../components/Tarjeta/Tarjeta';
 import logo1 from '../assets/GPSTPRO.png';
-import logoStruc from '../assets/struc.png.png';
+import logoStruc from '../assets/struc.png';
+import logoZombie from '../assets/logozombie.png';
+import logoX3la from '../assets/x3la.png';
+import logoTalk from '../assets/talkAI.png';
+import logoNews from '../assets/D3n.png';
+import bannerD3 from '../assets/bannerD3.jpeg';
+
+
 
 
 
 export const Home= () =>{
     return(
-        <div className="App">
       
-      <body>
-        <div class="Tarjetas">
+        <div className="App">
+          <Helmet>
+            <title>D3sarrollo</title>
+          </Helmet>
+          
+          <img src={bannerD3} className="Banner" alt="Banner" />
 
-          <TarjetaApli 
-            logo={logo1} 
-            nombre="Topografía GPS" 
-            texto="Libreta topográfica digital con GPS: cálculos y dibujo profesional para imprimir"
-            t1="gpst"
-            t2="GPST">
-          </TarjetaApli>
+          <h1>
+            Aplicaciones android publicadas desde 2017
+          </h1>
+      
+          <body>
+            <div class="Tarjetas">
 
-          <TarjetaApli 
-            logo={logoStruc} 
-            nombre="Structural 2d" 
-            texto="Análisis estructural de marcos bidimensionales con el método de las rigideces">
-          </TarjetaApli>
+            <TarjetaApli 
+                logo={logoNews} 
+                nombre="D3 News" 
+                texto="Android News app developed with MVVM and Clean Architecture">
+              </TarjetaApli>
+              
+              <TarjetaApli 
+                logo={logo1} 
+                nombre="Topografía GPS" 
+                texto="Libreta topográfica digital con GPS: cálculos y dibujo profesional para imprimir"
+                t1="gpst"
+                t2="GPST">
+              </TarjetaApli>
 
-          <TarjetaApli 
-            logo={logo1} 
-            nombre="GPST" 
-            texto="La mejor app">
-          </TarjetaApli>
+              <TarjetaApli 
+                logo={logoZombie} 
+                nombre="Zombie Defense" 
+                texto="¡Sobrevive al apocalipsis zombi en este juego de disparos 2D minimalista!"
+                t1="zombie-defense">
+              </TarjetaApli>
 
-          <TarjetaApli 
-            logo={logo1} 
-            nombre="GPST" 
-            texto="La mejor app">
-          </TarjetaApli>
+              <TarjetaApli 
+                logo={logoStruc} 
+                nombre="Structural 2d" 
+                texto="Análisis estructural de marcos bidimensionales con el método de las rigideces">
+              </TarjetaApli>        
 
-        </div>
-      </body>
+              <TarjetaApli 
+                logo={logoX3la} 
+                nombre="x3la.site" 
+                texto="App android con el mapa de servicios de la ciudad de Quetzaltenango">
+              </TarjetaApli>
+
+              <TarjetaApli 
+                logo={logoTalk} 
+                nombre="Talk AI" 
+                texto="App android chat de voz con ChatGPT 3.5">
+              </TarjetaApli>
+
+              
+
+            </div>
+            <p>
+              Los repositorios Git de estas apps estan disponibles en 
+              <a href="https://github.com/jlcp89">
+                la cuenta de GitHub de Juan Luis Carrillo
+              </a>
+              para su uso o consulta.
+            </p> 
+          </body>
     </div>
     )
 }

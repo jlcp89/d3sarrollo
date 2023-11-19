@@ -6,8 +6,7 @@
   height: 10vmin;
   pointer-events: none;
   position:relative;
-  top: 0;
-  left: 0;
+  
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -18,15 +17,14 @@
 
 .App-header {
   background-color: #105FA8;
-  min-height: 10vh;
+  min-height: 5vh;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
   font-size: calc(10px + 2vmin);
   color: white;
-  padding-left: 5vw;
-  padding-right: 5vw;
+  
   transition: background-color 1.0s ease;
 
 }
@@ -150,6 +148,12 @@ iframe{
   margin: 25px;
 }
 
+.Foto2{
+  max-width: 200px; /* Ajusta el tamaño máximo de la imagen */
+  max-height: 800px; /* Ajusta el tamaño máximo de la imagen */
+  margin: 25px;
+}
+
 .Tarjeta-titulo{
   color: white;
   margin: 10px;
@@ -168,7 +172,7 @@ iframe{
   width: 90vw;
   display: inline-block;
   text-align: center;
-  margin-top: 200px;
+  margin-top: 50px;
 }
 
 .back-to-top-button {
@@ -181,6 +185,10 @@ iframe{
   border-radius: 4px;
   padding: 10px 15px;
   cursor: pointer;
+  &:hover {
+    background-color: #1C1E21;
+    transition: background-color 1s ease;
+  }
 }
 
 form {
@@ -207,4 +215,17 @@ button {
   border: none;
   border-radius: 4px;
   cursor: pointer;
+}
+
+.Banner {
+  width: 90vw;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+li{
+  color: #105FA8;
 }
