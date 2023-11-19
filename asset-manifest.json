@@ -1,19 +1,25 @@
 {
   "files": {
-    "main.css": "/d3sarrollo/static/css/main.fe9fdb43.css",
-    "main.js": "/d3sarrollo/static/js/main.14fd14d7.js",
+    "main.css": "/d3sarrollo/static/css/main.6ceb13dc.css",
+    "main.js": "/d3sarrollo/static/js/main.6b19a20d.js",
     "static/js/787.674d9cc4.chunk.js": "/d3sarrollo/static/js/787.674d9cc4.chunk.js",
-    "static/media/struc.png.png": "/d3sarrollo/static/media/struc.png.f1bf12c1164114de29ee.png",
+    "static/media/tpJLCP.png": "/d3sarrollo/static/media/tpJLCP.709b0d5df5b15aed1c91.png",
+    "static/media/logozombie.png": "/d3sarrollo/static/media/logozombie.00634319bdc2a5ba5a40.png",
+    "static/media/struc.png": "/d3sarrollo/static/media/struc.f1bf12c1164114de29ee.png",
+    "static/media/bannerD3.jpeg": "/d3sarrollo/static/media/bannerD3.2675987eb5c9317f6fc7.jpeg",
     "static/media/GPSTPRO.png": "/d3sarrollo/static/media/GPSTPRO.261434fc82411339c7a4.png",
     "static/media/LogoD3sf.png": "/d3sarrollo/static/media/LogoD3sf.2cfdca09778d69508544.png",
+    "static/media/talkAI.png": "/d3sarrollo/static/media/talkAI.d0343931c4ad1c711f60.png",
+    "static/media/x3la.png": "/d3sarrollo/static/media/x3la.ae050ffb3a4c1b05350d.png",
     "static/media/FotoJL.jpg": "/d3sarrollo/static/media/FotoJL.5c7bfbd1ebfd4684b387.jpg",
+    "static/media/D3n.png": "/d3sarrollo/static/media/D3n.91aef956de5070c936c8.png",
     "index.html": "/d3sarrollo/index.html",
-    "main.fe9fdb43.css.map": "/d3sarrollo/static/css/main.fe9fdb43.css.map",
-    "main.14fd14d7.js.map": "/d3sarrollo/static/js/main.14fd14d7.js.map",
+    "main.6ceb13dc.css.map": "/d3sarrollo/static/css/main.6ceb13dc.css.map",
+    "main.6b19a20d.js.map": "/d3sarrollo/static/js/main.6b19a20d.js.map",
     "787.674d9cc4.chunk.js.map": "/d3sarrollo/static/js/787.674d9cc4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fe9fdb43.css",
-    "static/js/main.14fd14d7.js"
+    "static/css/main.6ceb13dc.css",
+    "static/js/main.6b19a20d.js"
   ]
 }
