@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <footer>
       {/* Contenido del pie de página */}
-      <p className='Footer'>© 2023 D3sarrollo (JLCP)</p>
+      <p className='Footer'>©  D3sarrollo (JLCP)  2023</p>
     </footer>
   );
 };

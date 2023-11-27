@@ -13,8 +13,8 @@ const GPST = () => {
       <h1>Zombie Defense: Random Maps</h1>
 
       <p></p>
-      <a href="https://play.google.com/store/apps/details?id=net.d3sarrollo.zombie_defense_random_maps">
-        Disponible en Google Play
+      <a href="/downloads/ZombieDefense.apk" download>
+        Disponible aqui (APK)
       </a>
 
       <p>

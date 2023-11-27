@@ -11,14 +11,12 @@ const GPST = () => {
       <h1>Topografía GPS</h1>
 
       <p></p>
-      <a href="https://play.google.com/store/apps/details?id=com.desarrollojlcp.gps_topography">
-        Disponible en Google Play
+      <a href="/downloads/GPST4.apk" download>
+        Disponible aquí (PRO APK)
       </a>
 
       <p></p>
-      <a href="https://play.google.com/store/apps/details?id=com.desarrollojlcp.gps_topography_pro">
-        Versión Profesional
-      </a>
+      
 
       <p>
         Disfrute de la mejor app para topografía en Android, ligera y efectiva.  
@@ -36,7 +34,7 @@ const GPST = () => {
         La app calcula coordenadas UTM, coordenadas parciales, errores, correcciones (con el método de Pennsylvania), coordenadas totales compensadas, perímetro y área del polígono (método matricial).  Las metodologías utilizadas para los cálculos son reconocidas como mejores prácticas de ingeniería civil, por lo que la app se considera diseñada para facilitar el trabajo de profesionales y estudiantes de topografía
       </p>
         
-      <p>Accede a la versión PRO dentro de la app con una suscripción mensual de $1/mes, que le dará acceso a las siguientes funciones:
+      <p>La versión PRO le dará acceso a las siguientes funciones:
         <ul>
         <li>
         Genere el archivo DXF

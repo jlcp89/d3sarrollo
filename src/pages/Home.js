@@ -7,7 +7,7 @@ import logoZombie from '../assets/logozombie.png';
 import logoX3la from '../assets/x3la.png';
 import logoTalk from '../assets/talkAI.png';
 import logoNews from '../assets/D3n.png';
-import bannerD3 from '../assets/bannerD3.jpeg';
+import bannerD3 from '../assets/bannerD3.png';
 
 
 
@@ -33,15 +33,15 @@ export const Home= () =>{
             <TarjetaApli 
                 logo={logoNews} 
                 nombre="D3 News" 
-                texto="Android News app developed with MVVM and Clean Architecture">
-              </TarjetaApli>
+                texto="Android News app developed with MVVM and Clean Architecture"
+                t1 = "d3-news">
+            </TarjetaApli>
               
               <TarjetaApli 
                 logo={logo1} 
                 nombre="Topografía GPS" 
                 texto="Libreta topográfica digital con GPS: cálculos y dibujo profesional para imprimir"
-                t1="gpst"
-                t2="GPST">
+                t1="gpst">
               </TarjetaApli>
 
               <TarjetaApli 
@@ -54,7 +54,8 @@ export const Home= () =>{
               <TarjetaApli 
                 logo={logoStruc} 
                 nombre="Structural 2d" 
-                texto="Análisis estructural de marcos bidimensionales con el método de las rigideces">
+                texto="Análisis estructural de marcos bidimensionales con el método de las rigideces"
+                t1="structural-2d">
               </TarjetaApli>        
 
               <TarjetaApli 
