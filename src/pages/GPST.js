@@ -17,13 +17,26 @@ const GPST = () => {
 
       <p></p>
       
+      <h3>
+        Política de Privacidad / Privacy Policy
 
+      </h3>
       <p>
-        Disfrute de la mejor app para topografía en Android, ligera y efectiva.  
+        D3sarrollo no guarda ninguna información del usuario, utilizamos exclusivamente las herramientas de Firebase para estadisticas de uso y manejo de errores.
       </p>
+      
+      <h3>
+        Manual de Usuario:
+      </h3>
       <iframe src="https://www.youtube.com/embed/lBPNq8WqpIs?si=7gFPjskGi8pApX8k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
       
       
+      <p>
+        Hemos avanzado mucho desde la primera versión:  
+      </p>
+
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/9OqxZmkzSBM?si=rm59yJhBKtbPZ99i" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            
 
       <p>
         Diseñada para ser el reemplazo definitivo de la libreta topográfica, de lápiz y papel; 100% offline.  Capture rápidamente información GPS de su dispositivo Android, para recopilar puntos, líneas o polígonos con Google Maps, o; recalcule cualquier polígono, ingresando los datos de mediciones de campo, realizadas anteriormente o en el momento, por medición directa o por radiaciones
