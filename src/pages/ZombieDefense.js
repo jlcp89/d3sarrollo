@@ -13,9 +13,16 @@ const GPST = () => {
       <h1>Zombie Defense: Random Maps</h1>
 
       <p></p>
-      <a href="/downloads/ZombieDefense.apk" download>
-        Disponible aqui (APK)
+      <a href="https://play.google.com/store/apps/details?id=net.d3sarrollo.zombie_defense_random_maps" download>
+        Disponible en Google Play
       </a>
+      <h3>
+        Política de Privacidad / Privacy Policy
+
+      </h3>
+      <p>
+        D3sarrollo no guarda ninguna información del usuario, utilizamos exclusivamente las herramientas de Firebase para estadisticas de uso y manejo de errores.
+      </p>
 
       <p>
         ¡Sobrevive al apocalipsis zombi en este juego de disparos 2D minimalista!  

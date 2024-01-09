@@ -11,11 +11,15 @@ const GPST = () => {
       <h1>Topografía GPS</h1>
 
       <p></p>
-      <a href="/downloads/GPST4.apk" download>
-        Disponible aquí (PRO APK)
+      <a href="https://play.google.com/store/apps/details?id=com.desarrollojlcp.gps_topography" download>
+        Disponible en Google Play
       </a>
 
       <p></p>
+
+      <a href="https://forms.gle/YpLwa6dhCfzQKa1r6" download>
+        Puedes apoyar el desarrollo de la app respondiendo esta breve encuesta
+      </a>
       
       <h3>
         Política de Privacidad / Privacy Policy
