@@ -1,3 +1,4 @@
+
 .App {
   text-align: center;
 }
@@ -143,6 +144,239 @@ p{
   color: #105FA8;
   margin-left: 25px;
   margin-bottom: 2px;
+  text-align: justify;
+}
+
+iframe{
+  width: 85vw;
+  height: 40vw;
+  margin: 25px;
+}
+
+.Foto{
+  max-width: 100%; /* Ajusta el tamaño máximo de la imagen */
+  max-height: 100%; /* Ajusta el tamaño máximo de la imagen */
+  margin: 25px;
+}
+
+.Foto2{
+  max-width: 200px; /* Ajusta el tamaño máximo de la imagen */
+  max-height: 800px; /* Ajusta el tamaño máximo de la imagen */
+  margin: 25px;
+}
+
+.Tarjeta-titulo{
+  color: white;
+  margin: 10px;
+}
+
+.Tarjeta-texto{
+  color: white;
+  margin: 1px;
+  text-align: center;
+}
+
+.Footer{
+  color: #1C1E21;
+  margin: 10px;
+  width: 90vw;
+  display: inline-block;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.back-to-top-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #1C1E21;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 15px;
+  cursor: pointer;
+  &:hover {
+    background-color: blue;
+    transition: background-color 1s ease;
+  }
+}
+
+form {
+  max-width: 400px;
+  margin: auto;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.Banner {
+  width: 90vw;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+li{
+  color: #105FA8;
+  text-align: justify;
+  margin-left: 25px;
+  margin-right: 25px;}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 10vmin;
+  pointer-events: none;
+  position:relative;
+  
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 10s reverse;
+  }
+}
+
+.App-header {
+  background-color: #105FA8;
+  min-height: 5vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  
+  transition: background-color 1.0s ease;
+
+}
+
+.App-header:hover {
+  background-color: #1C1E21;
+
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.Tarjeta {
+  background-color: #105FA8;
+  height: 100px;
+  width: 40vw;
+  min-width: 200px;
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 1vmin);
+  color: white;
+  margin: 10px;
+  margin-top: 20px;
+  border-radius: 25px;
+  padding: 0px;
+  transition: background-color 1.0s ease;
+}
+
+.Tarjeta:hover {
+  background-color: #1C1E21; /* Cambiar el color de fondo al pasar el cursor */
+  transform: scale(1.05);
+
+}
+
+.Tarjetas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.Tarjetas .Tarjeta {
+  height: 50%;
+}
+
+.Tarjeta-logo {
+  height: 7vh;
+  pointer-events: none;
+  position:relative;
+  top: 0;
+  left: 0;
+  background-color: white;
+  margin: 5px;
+}
+
+.App-enlace{
+  color: rgb(160, 160, 160);
+
+  &:hover {
+    color: white;
+    transition: color 0.4s ease-in-out;
+  }
+
+  &:active {
+    color: blue;
+  }
+}
+
+a{
+  color: rgb(160, 160, 160);
+  margin: 25px;
+  margin-left: 25px;
+  &:hover {
+    color: blue;
+    transition: color 0.4s ease-in-out;
+  }
+
+  &:active {
+    color: blue;
+  }
+}
+
+h1{
+  color: #105FA8;
+  margin: 25px;
+  display: inline-block;
+  text-align: center;
+  width: 85vw;
+}
+
+h3{
+  color: #105FA8;
+  margin: 25px;
+  
+}
+
+p{
+  color: #105FA8;
+  margin: 25px;
   text-align: justify;
 }
 

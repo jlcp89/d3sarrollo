@@ -9,10 +9,6 @@ import logoTalk from '../assets/talkAI.png';
 import logoNews from '../assets/D3n.png';
 import bannerD3 from '../assets/bannerD3.png';
 
-
-
-
-
 export const Home= () =>{
     return(
       
