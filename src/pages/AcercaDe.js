@@ -13,37 +13,34 @@ const AcercaDe = () => {
       </Helmet>
       <h1>Acerca de</h1>
       <p>
-        D3sarrollo es el nombre comercial registrado de Juan Luis Carrillo, 
-        consultor y desarrollador android senior.  Con más de 6 años de experiencia
-        profesional como consultor en temas de infraestructura productiva, 
-        competitividad, desarrollo economico y asesoria empresarial. 
-        
+        D3sarrollo es es una pequeña empresa de desarrollo de paginas web y aplicaciones moviles, ubicada en Quetzaltenango, Guatemala, C.A.
       </p>
 
       <p>
-      Ingeniero Civil con estudios de maestria en recursos hídricos. 
-      Experto en incidencia política, desarrollo económico local, municipalismo y competitividad. 
-      Consultor/Asesor para proyectos de Cooperación y Gobierno.
+        ---
+      </p>
+
+      <h2>Visión</h2>
+      <p>
+        Ser la empresa líder en consultoría y desarrollo tecnológico en Guatemala, reconocida por la calidad y la innovación en nuestros proyectos. Buscamos transformar ideas en soluciones tecnológicas que impulsen el crecimiento de las pequeñas y medianas empresas, así como contribuir al desarrollo económico y social del país.
+      </p>
+
+      <h2>Misión</h2>
+      <p>
+        Proveer soluciones tecnológicas de alta calidad que satisfagan las necesidades de nuestros clientes, mediante la integración de tecnologías avanzadas y un enfoque personalizado. Nos comprometemos a ofrecer servicios de consultoría y desarrollo de software que mejoren la eficiencia operativa y fomenten la competitividad, apoyando el crecimiento sostenible y el éxito de nuestros clientes en el ámbito digital.
       </p>
 
       <p>
-        Desarrollador android desde 2017, llevando a cabo todo el ciclo desarrollo, desde
-        la eleccion de tematicas, palabras clave, desarrollo del backend y frontend de las apps,
-        realizo la transición desde MVC con View a MVVVM con compose, contando con varias insignias
-        de desarrollo android 
-        <a href="https://developers.google.com/profile/u/102085573179034332964">
-          perfil de Google for Developers
-        </a>
+        ---
       </p>
 
-      <img src={foto} className="Foto" alt="foto" />
+      <p>
+        Si desea una pagina web o aplicación movil, para su negocio u organización, no dude en contactar con servicio al cliente al telefono (+502) 3566 6969,  de Lunes a Sabado, en horario laboral.
+      </p>
 
       <p></p>
-      <a href="https://www.linkedin.com/in/juan-luis-carrillo-339266154/">
-        Perfil de LinkedIn
-      </a>
+    
 
-      {/* Contenido de la página de inicio */}
     </div>
   );
 };

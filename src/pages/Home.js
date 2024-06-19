@@ -69,17 +69,7 @@ export const Home= () =>{
                 nombre="Talk AI" 
                 texto="App android chat de voz con ChatGPT 3.5">
               </TarjetaApli>
-
-              
-
             </div>
-            <p>
-              Los repositorios Git de estas apps estan disponibles en 
-              <a href="https://github.com/jlcp89">
-                la cuenta de GitHub de Juan Luis Carrillo
-              </a>
-              para su uso o consulta.
-            </p> 
           </body>
     </div>
     )

@@ -39,7 +39,8 @@ const GPST = () => {
             
 
       <p>
-      Topografía GPS está diseñada para ser el reemplazo definitivo de la libreta topográfica, de lápiz y papel, funcionando completamente offline. Capture rápidamente información GPS desde su dispositivo Android para recopilar puntos, líneas o polígonos usando Google Maps. También puede recalcular cualquier polígono ingresando los datos de mediciones de campo realizadas anteriormente o en el momento, ya sea por medición directa o por radiaciones.      </p>
+        Diseñada para ser el reemplazo definitivo de la libreta topográfica, de lápiz y papel; 100% offline.  Capture rápidamente información GPS de su dispositivo Android, para recopilar puntos, líneas o polígonos con Google Maps, o; recalcule cualquier polígono, ingresando los datos de mediciones de campo, realizadas anteriormente o en el momento, por medición directa o por radiaciones
+      </p>
       
 
       <p>

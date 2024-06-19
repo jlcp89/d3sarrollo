@@ -15,12 +15,10 @@ const Contacto = () => {
 
       <p>
         Si desea mas información sobre nuestros productos, comuniquese al numero de 
-        <a href="https://api.whatsapp.com/send/?phone=50248491470">
-        WhatsApp  +502 4849 1470.
+        <a href="https://api.whatsapp.com/send/?phone=50235666969">
+        WhatsApp  +502 3566 6969.
         </a>
       </p>
-
-      <img src={tarjetaPresentacion} className="Foto2" alt="Banner" />
 
       <ContactForm/>
 

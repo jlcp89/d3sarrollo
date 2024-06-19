@@ -5,6 +5,7 @@ import { BrowserRouter, Link as Router, Routes, Route, Link }
     from 'react-router-dom';
 import Home from '../../pages/Home';
 import Contacto from '../../pages/Contacto';
+import Blog from '../../pages/Blog';
 import GPST from '../../pages/GPST';
 import AcercaDe from '../../pages/AcercaDe';
 import ZombieDefense from '../../pages/ZombieDefense';
@@ -25,6 +26,9 @@ export const Menu = () =>{
                     <Link className="App-enlace" to="/">
                         <img src={logo} className="App-logo" alt="logo" />
                     </Link>
+                    <Link className="App-enlace" to="blog">
+                        Blog
+                    </Link>
                     <Link className="App-enlace" to="contacto">
                         Contacto
                     </Link>
@@ -35,6 +39,7 @@ export const Menu = () =>{
                 
                 <Routes>
                     <Route path="/" element={<Home/>}/>
+                    <Route path="/blog" element={<Blog/>}/>
                     <Route path="/contacto" element={<Contacto/>}/>
                     <Route path="/acerca-de" element={<AcercaDe/>}/>
 

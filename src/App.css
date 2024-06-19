@@ -104,7 +104,6 @@
 
 a{
   color: rgb(160, 160, 160);
-  margin: 25px;
   margin-left: 25px;
   &:hover {
     color: blue;
@@ -124,15 +123,26 @@ h1{
   width: 85vw;
 }
 
+h2{
+  color: #105FA8;
+  margin-left: 25px;
+  margin-bottom: 3px;
+  display: inline-block;
+  text-align: left;
+  width: 85vw;
+}
+
+
 h3{
   color: #105FA8;
-  margin: 25px;
-  
+  margin-left: 25px;
+  margin-bottom: 3px;
 }
 
 p{
   color: #105FA8;
-  margin: 25px;
+  margin-left: 25px;
+  margin-bottom: 2px;
   text-align: justify;
 }
 
